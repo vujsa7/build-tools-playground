@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+$title: rgb(95, 95, 95);
+$text: rgb(53, 53, 53);
+$bg: rgb(0, 109, 160);
+
+body {
+  font-family: "Comfortaa", cursive;
+  color: $text;
+  background-color: $bg;
+}
+
+.card {
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  padding: 20px 40px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#laughing-emoji {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.joke-title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  color: $title;
+  margin-bottom: 10px;
+}
+
+#joke {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#joke-button {
+  cursor: pointer;
+  background-color: $bg;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
